@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Find a Joke</title>
+</head>
+<body>
+    <h1 class="text-center">Joke-a-Thon</h1>
+    <p class="text-center">Find a joke that tickles your funny bone!</p>
+    <form class="checkboxes text-center">
+        <input type="checkbox" id="programming" name="programming" value="programming" >
+        <label for="programming">Programming</label>
+        <br>
+        <input type="checkbox" id="misc" name="misc" value="misc">
+        <label for="misc">Miscellaneous</label>
+        <br>
+        <input type="checkbox" id="spooky" name="spooky" value="spooky">
+        <label for="spooky">Spooky</label>
+        <br>
+        <input type="checkbox" id="dark" name="dark" value="dark">
+        <label for="dark">Dark</label>
+        <br>
+        <input type="checkbox" id="pun" name="pun" value="pun">
+        <label for="pun">Pun</label>
+        <br>
+        <input type="checkbox" id="christmas" name="christmas" value="christmas">
+        <label for="christmas">Christmas</label>
+        <br>
+        <button id="searchButtonCategory" class="btn btn-primary btn-block" type="button"><i class='fas fa-search'></i></button>
+    </form>
+    <br>
+    <h2 class="text-center">Or...</h2>
+    <form class="searchByKeyword text-center">
+        <input id="keywordInput" type="text" id="searchbar" name="searchbar" placeholder="Search by keyword">
+        <label for="searchbar"></label>
+        <br>
+        <button id="searchButtonKeyword" class='btn btn-primary btn-block' type="button"><i class='fas fa-search'></i></button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
